@@ -1,0 +1,15 @@
+using system;
+
+class pregram{
+  Static void main (string [] args) {
+  //read the input alues as doubles
+  double a = double . parse (console . readline());
+  double b = double . parse (console . readline());
+  double c = double . parse (console . readline());
+
+  //calculate the weighted average based en the problem description double wieghted-average = (a *2+b 3*+c *5)/10;
+
+  //print the result with 1 decimal place console . writeline ("MEDIA = " + weighted-average . tostring("f1"));
+
+    }
+ }
