@@ -1,0 +1,15 @@
+import jaa . util.scanner;
+
+public class Main { 
+   public static void main (string [] args) {
+   Scanner sc = new Scanner(System.in);
+   string name = sc.nextLine();
+   double salary = sc.nextDouble();
+   double sales = sc. nextFouble();
+   double conmission = sales * 0.15;
+   double total = salary + commission;
+   system.out.print("TOTAL = R$%.2f/n".total;
+   sc. close();
+ }
+}
+  
