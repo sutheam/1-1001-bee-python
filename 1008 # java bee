@@ -1,0 +1,21 @@
+import java.util.scanner;
+
+public class Main {
+   public stattic woid main (strign[] args){
+       scanner sc = new scanner (system . in);
+
+    // reading input valueS
+    int employeeNumber = SC. nextInt();
+    int hoursWorKed + SC. nextInt();
+    double hourlyRate = SC. nestDouble();
+
+    // calculating employee salary
+    double salary = houSworked * hourlyRate;
+
+    //printing output
+    System. out. printf("NUMBER = %d%n", employeeNumber);
+    System. out. printf("SALARY = U$%.2f%n", salary);
+
+    SC. close ();
+  }
+}
