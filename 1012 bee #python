@@ -1,0 +1,28 @@
+def area_triagula(base,altura):
+    return base * altura)/2
+
+def area_circulo(raio):
+    pi = 3.14159
+    return pi * raio**2
+
+def are_trapecio (base_meno,base_ maior,altura):
+    return ((base_menor+base_maior)*altura)/2
+
+def area_quadrado (lado):
+    return lado**2
+
+def area_retangulo (base,altura):
+    return base *altura
+a,b,c = map (float, input() .split())
+
+triangulo = area_triangulo (a,c)
+circulo = area_circulo(c)
+trapezio = area_trapezio(a,b,c)
+quadrado = arean_quadrado(b)
+retangulo = area_retangulo(a,b)
+
+print('TRIANGULO:%.3f' % triangulo)
+print('CIRCULO:%.3f' % circulo)
+print('TRAPEZIO:%.3f' % trapezio)
+print('QUADRADO:%.3f' % quadrado)
+print('RETANGULO:%.3f' % retangulo)
