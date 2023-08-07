@@ -1,0 +1,16 @@
+import java.ultil.Scanner;
+
+public class Main {
+   public static void main (String [] args){
+     Scanner sc = new Scanner (System.in);
+     int code 1 = sc. newtInt();
+     int units 1 = sc.nextDouble();
+     double price 1 = sc.netDouble();
+     int code 2 = sc.nextInT();
+     int units 2 = sc.nestInt();
+     double price 2 = sc.nextDouble();
+     double total = units 1 * price 1+ units 2*price 2;
+     system.out.printf("VALOR APAGAR:R$%.2f\n",total);
+     sc.close();
+    }
+  }
