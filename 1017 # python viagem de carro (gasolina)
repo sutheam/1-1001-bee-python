@@ -1,0 +1,5 @@
+tempogasto = int (input())
+velocidademedia = int (input())
+distanciapercorrida = tempogasto * velocidademedia
+litro = distanciapercorrida/12
+print("%.3f"%litro)
