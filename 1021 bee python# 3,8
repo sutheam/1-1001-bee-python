@@ -1,0 +1,31 @@
+#1012
+Reais, centavos = map(int,input().split('.'))
+centavos = centavos + reais * 100
+
+print('NOTAS:')
+print(f'{centavos//10000} nota(S) de R$100.00')
+centavos = centavos%10000
+print(f'{centavos//5000} nota(S) de R$50.00')
+centavos = centavos%5000
+print(f'{centavos//2000} nota(S) de R$20.00')
+centavos = centavos%2000
+print(f'{centavos//1000} nota(S) de R$10.00')
+centavos = centavos%1000
+print(f'{centavos//500} nota(S) de R$5.00')
+centavos = centavo%500
+print(f'{centavos//200} nota(S) de R$2.00')
+centavo = centavo%200
+
+print('MOEDAS:')
+print(f'{centavos//100} moeda(S) de R$1.00')
+centavo = centavo%100
+print(f'{centavos//50} moeda(S) de R$0.50')
+centavo = centavo%50
+print(f'{centavo//25} moeda(S) de R$0.25')
+centavo = centavo%25
+print(f'{centavo//10} moeda(S) de R$0.10')
+centavo = centavo%10
+print(f'{centavo//5} moeda(S) de R$0.05')
+centavo = centavo%5
+print(f'{centavo//1} moeda(S) de R$0.01')
+centavo = centavo%1
